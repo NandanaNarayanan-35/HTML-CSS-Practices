@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Yusei Magic', sans-serif;
+        color: rgb(228, 184, 184);
+      }
+
+      .main {
+        margin: 15px;
+      }
+      .header {
+        width: 100%;
+        height: 70px;
+        background-color: #b2e5e6;
+        position: sticky;
+        top: 0px;
+      }
+
+      .content {
+        width: 100%;
+        height: 1500px;
+        background-color: #f9f7c9;
+        padding: 15px;
+      }
+
+      .box1 {
+        /* margin: 15px; */
+        width: 100%;
+        height: 750px;
+        background-color: #cadfba;
+        display: flex;
+        padding: 25px;
+
+      }
+
+      .box {
+        width: 45%;
+        height: 700px;
+        background-color: #ac7d88;
+      }
+
+      /* .box1a{
+            width: 45%;
+            height: 700px;
+            background-color: #AC7D88;
+        } */
+
+      .box1b {
+        /* width: 45%;
+            height: 700px;
+            background-color: #AC7D88; */
+        margin-left: 150px;
+        /* position: relative; */
+
+      }
+
+      .shape{
+        height: 50px;
+        width: 50px;
+        border: 2px solid;
+        position: fixed;
+        bottom: 10px;
+        left: 92vw;
+        border-radius: 25px;
+      }
+
+      .box2 {
+        padding: 150px;
+      }
+
+      .text {
+        border: 2px solid rgb(228, 184, 184);
+        border-radius: 10px;
+        display: inline-block;
+        margin-top: 300px;
+        margin-left: 300px;
+        padding: 15px;
+      }
+
+      .footer {
+        width: 100%;
+        height: 70px;
+        background-color: #d5f0c1;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="header"></div>
+
+      <div class="content">
+        <div class="box1">
+          <div class="box box1a"></div>
+          <div class="box box1b">
+            <div class="shape">
+                <span><pre> NPN</pre></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="box2">
+          <span class="text">
+            <h1>Hogwarts is my Home</h1>
+          </span>
+        </div>
+      </div>
+
+      <div class="footer"></div>
+    </div>
+  </body>
+</html>

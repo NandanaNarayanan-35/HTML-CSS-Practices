@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        color: #378f94;
+        font-family: 'Yusei Magic', sans-serif;
+      }
+
+      /* body{
+        background-color: #378f94;
+      } */
+
+      .card {
+        height: 550px;
+        width: 310px;
+        background-color: aliceblue;
+        border-radius: 10px;
+        border: 2px solid rgb(221, 236, 250);
+        margin: 30px auto;
+      }
+
+      .image {
+        padding: 8px;
+      }
+
+      .image img {
+        border-radius: 10px;
+        border: 2px solid rgb(221, 236, 250);
+      }
+
+     span {
+        border: 2px solid rgb(221, 236, 250);
+        border-radius: 10px;
+        padding: 2px 4px;
+        /* color: #378f94;
+        font-family: 'Yusei Magic', sans-serif; */
+        display: inline-block;
+        margin: 5px 3px;
+      }
+
+      .character{
+        margin-left: 25px;
+      }
+
+      .content h2{
+        margin: 10px 95px;
+      }
+
+      .content p{
+        margin-left: 30px;
+      }
+
+      button{
+        border: none;
+        border-radius: 10px;
+        background-color: #49b2b8;
+        color: aliceblue;
+        padding: 3px 5px;
+        margin: 30px 95px;
+       
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="card">
+        <div class="image">
+          <img
+            src="./Magical Train Leaving Magical Castle Illustration Wall Art - Etsy.jpeg"
+            alt="Train"
+            width="290"
+            height="200"
+          />
+        </div>
+        <div class="character">
+          <span>Harry Potter</span>
+          <span>Hermonie</span>
+          <span>Ron</span>
+        </div>
+        <div class="content">
+            <h2>Hogwarts</h2>
+            <p>Hogwarts was established in the Highlands of Scotland to educate young wizards and witches as well as to keep students safe from Muggle persecution.</p>
+        </div>
+        <div class="button">
+            <button>Go to Hogwarts</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
